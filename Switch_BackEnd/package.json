@@ -1,0 +1,27 @@
+{
+  "name": "connect_in_server",
+  "version": "1.0.0",
+  "description": "chat app server",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sreehari Rajan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.970.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-two-sms": "^3.0.0",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2",
+    "socketio-jwt": "^4.6.2"
+  }
+}
